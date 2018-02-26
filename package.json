@@ -22,7 +22,7 @@
       "properties": {
         "newFile.rootDirectory": {
           "type": "string",
-          "default": "~/go/src/thinkovator.com",
+          "default": "~/go/src/gitlab.com/thinkovator",
           "description": "Only used when 'relativeTo' is set to 'root'. Used as the root for creating new files."
         },
         "newFile.templateDirectory": {
@@ -32,7 +32,7 @@
         },
         "newFile.templateFiles": {
           "type": "array",
-          "default": "service.go,service_test.go,instrumenting.go,logging.go,model.go",
+          "default": "service.go,service_test.go,instrumenting.go,logging.go,model.go,tracer.go",
           "description": "Name of the files to be created by template."
         }
       }
